@@ -5,6 +5,8 @@
   "main": "''",
   "dependencies": {
     "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-copy": "^4.0.1",
     "gulp-zip": "^4.2.0",
     "webextension-polyfill": "^0.4.0"
   },

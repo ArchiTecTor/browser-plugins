@@ -1,33 +1,36 @@
 {
-
   "manifest_version": 2,
   "name": "FPS meter",
   "version": "1.1",
- 
   "description": "Show fps graph",
   "icons": {
     "48": "icons/baseline_equalizer_black_48dp.png"
   },
-
   "permissions": [
     "activeTab"
   ],
-
   "browser_action": {
     "default_icon": "icons/baseline_equalizer_black_48dp.png",
     "default_title": "FPS meter"
   },
-
-  "background":{
-    "scripts": ["background.js"]
+  "background": {
+    "scripts": [
+      "browser-polyfill.min.js",
+      "background.js"
+    ]
   },
-
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["main.js"],
-      "css": ["main.css"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "browser-polyfill.min.js",
+        "main.js"
+      ],
+      "css": [
+        "main.css"
+      ]
     }
   ]
-
 }
