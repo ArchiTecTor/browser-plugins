@@ -1,10 +1,14 @@
 .fps-widget{
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	right: 10px;
+	width: 100px;
+	height: 100px;
 	border-radius: 15px;
 	background-color: black;
+	border: 2px solid;
 	display: none;
+	z-index: 9999;
 }
 
 .fps-widget.enabled{

@@ -1,0 +1,27 @@
+{
+  "name": "fps_meter",
+  "version": "0.1.1",
+  "description": "fps meter widget",
+  "main": "''",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-zip": "^4.2.0",
+    "webextension-polyfill": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArchiTecTor/browser-plugins/tree/master/fps_meter"
+  },
+  "keywords": [
+    "fps",
+    "meter",
+    "widget",
+    "js"
+  ],
+  "author": "archi",
+  "license": "ISC"
+}
